@@ -82,7 +82,7 @@ const Hero: React.FC = () => {
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-cyan-500/10 rounded-full blur-[100px] animate-pulse"></div>
           <div className="relative p-4">
              <div className="w-full aspect-square rounded-3xl glass border border-white/10 overflow-hidden relative group">
-                <img src="./profile.jpg" alt="Professional Portrait Placeholder" className="w-full h-full object-cover opacity-60 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" />
+                <img src="/profile.jpg" alt="Professional Portrait Placeholder" className="w-full h-full object-cover opacity-60 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
                 <div className="absolute bottom-8 left-8">
                   <p className="text-white font-bold text-xl">James V. Prabahar</p>
